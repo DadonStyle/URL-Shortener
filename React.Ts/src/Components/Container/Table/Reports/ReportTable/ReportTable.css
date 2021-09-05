@@ -1,0 +1,66 @@
+body {
+    background-color: #e7e9e3;
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.allTable{
+    vertical-align: top;
+    width:60%; 
+    margin-left: 20%;
+    margin-top: 2%; 
+}
+
+tbody{
+    margin-left: 200px;
+}
+
+td{
+    text-align: center;
+    padding: 5px;  
+    
+} 
+
+th{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline grey;
+    text-decoration-thickness: 1px;
+}
+
+input{
+    text-align: right;
+    display: relative;
+    background-color: transparent;
+    border: transparent;
+    border-bottom:solid 1px;
+}
+
+.deleteBTN  {
+    margin-top:2px;
+    margin-bottom: 0px;
+    text-align: center;
+    width:40px;
+    height:20px;
+    background-color:#801f5f;
+    color:white;
+    font-weight : bold;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+} 
+
+.editBTN  {
+    margin-top:2px;
+    margin-bottom: 0px;
+    text-align: center;
+    width:40px;
+    height:20px;
+    background-color:#801f5f;
+    color:white;
+    font-weight : bold;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+} 

@@ -1,0 +1,35 @@
+form{
+    box-sizing: border-box;
+    display: block;
+    margin: 40px;
+}
+
+.submitBTN {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width:100px;
+    height:30px;
+    background-color:#801f5f;
+    color:white;
+    font-weight : bold;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.urlINPUT {
+    text-align: right;
+    display: relative;
+    width: 35%;
+    background-color: transparent;
+    border: transparent;
+    border-bottom:solid 1px;
+    
+}
+
+.aBTN {
+    border-bottom: solid #801f5f;
+}
+
+
