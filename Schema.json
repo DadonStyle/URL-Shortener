@@ -1,0 +1,8 @@
+{
+    "mongoDB": {
+        "collection": { 
+            "_fullUrl" : "string",
+            "_shortId" : "string",
+            "_clicks" : "number"
+    }}
+}
