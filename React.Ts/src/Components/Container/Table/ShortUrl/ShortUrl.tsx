@@ -25,6 +25,7 @@ const ShortUrl = () => {
             <form onSubmit={handleUrl}>
             <input type="text" onChange={(e)=>{setFullUrl(e.target.value)}} placeholder="URL כתובת" className="urlINPUT"></input><br/>
                 <button type="submit" className="submitBTN">קצר לי</button><br/>
+                {shortUrl.length>0? <a href={`http://localhost:8080/redirect/${shortUrl}`}> http://localhost:8080/redirect/{shortUrl} </a> : "" }
             </form>
         </div>
     )
